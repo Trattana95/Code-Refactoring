@@ -1,4 +1,5 @@
-* {
+
+*{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -17,7 +18,8 @@ body {
 
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 48px; 
+
 }
 
 .header h1 .seo {
@@ -47,7 +49,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .hero {
@@ -73,7 +75,13 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    margin-right: 20px;
 }
+.content h1{
+    font-size: 64px;
+    padding-bottom: 4px;
+}
+
 
 .benefits {
     margin-right: 20px;
@@ -101,17 +109,17 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefit-lead h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+.benefit-brand h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+.benefit-cost h2 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -197,4 +205,8 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+.row {
+    display: flex;
 }
